@@ -139,10 +139,7 @@ class Transformer(nn.Module):
 
 if __name__ == '__main__':
 
-    # Transformer Parameters
-
-    src_len = 5 # length of source
-    tgt_len = 5 # length of target
+    # Transformer Parameterset
 
     d_model = 512  # Embedding Size
     d_ff = 2048  # FeedForward dimension
